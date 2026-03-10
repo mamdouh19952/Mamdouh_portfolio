@@ -175,126 +175,43 @@ nav .nav-link::after {
   animation: typing 5s alternate infinite;
 }
 @keyframes typing {
-  2.5% {
-    content: " m|";
-  }
-  5% {
-    content: " ma|";
-  }
-  7.5% {
-    content: " mam|";
-  }
-  10% {
-    content: " mamd|";
-  }
-  12.5% {
-    content: " mamdo|";
-  }
-  15% {
-    content: " mamdouh|";
-  }
-  17.5% {
-    content: " mamdouh|";
-  }
-  20% {
-    content: " mamdo|";
-  }
-  22.5% {
-    content: " mam|";
-  }
-  25% {
-    content: " ma";
-  }
-  27.5% {
-    content: " |";
-  }
-  30% {
-    content: "D|";
-  }
-  32.5% {
-    content: " Dev|";
-  }
-  35% {
-    content: "Devel|";
-  }
-  37.5% {
-    content: " Develo|";
-  }
-  40% {
-    content: " Develope|";
-  }
-  42.5% {
-    content: " Developer|";
-  }
-  45% {
-    content: " Develop|";
-  }
-  47.5% {
-    content: " Develo|";
-  }
-  50% {
-    content: " Devl|";
-  }
-  52.5% {
-    content: " Dev|";
-  }
-  55% {
-    content: " De|";
-  }
-  57.5% {
-    content: " De|";
-  }
-  60% {
-    content: " Des|";
-  }
-  62.5% {
-    content: " Desi|";
-  }
-  65% {
-    content: " Desig|";
-  }
-  67.5% {
-    content: " Design|";
-  }
-  70% {
-    content: " Designer|";
-  }
-  72.5% {
-    content: " Designe|";
-  }
-  75% {
-    content: " Design|";
-  }
-  77.5% {
-    content: " Desig|";
-  }
-  80% {
-    content: " Desi|";
-  }
-  82.5% {
-    content: " Des|";
-  }
-  85% {
-    content: " De|";
-  }
-  87.5% {
-    content: " D|";
-  }
-  90% {
-    content: " |";
-  }
-  92.5% {
-    content: " |";
-  }
-  95% {
-    content: " | ";
-  }
-  97.5% {
-    content: " |";
-  }
-  100% {
-    content: " |";
-  }
+  0% { content: "M|"; }
+  3% { content: "Ma|"; }
+  6% { content: "Mam|"; }
+  9% { content: "Mamd|"; }
+  12% { content: "Mamdo|"; }
+  15% { content: "Mamdou|"; }
+  18% { content: "Mamdouh|"; }
+
+  22% { content: "Mamdou|"; }
+  25% { content: "Mamdo|"; }
+  28% { content: "Mamd|"; }
+  31% { content: "Mam|"; }
+  34% { content: "Ma|"; }
+  37% { content: "M|"; }
+  40% { content: "|"; }
+
+  43% { content: "D|"; }
+  46% { content: "De|"; }
+  49% { content: "Dev|"; }
+  52% { content: "Deve|"; }
+  55% { content: "Devel|"; }
+  58% { content: "Develo|"; }
+  61% { content: "Develop|"; }
+  64% { content: "Develope|"; }
+  67% { content: "Developer|"; }
+
+  72% { content: "Develope|"; }
+  75% { content: "Develop|"; }
+  78% { content: "Develo|"; }
+  81% { content: "Devel|"; }
+  84% { content: "Deve|"; }
+  87% { content: "Dev|"; }
+  90% { content: "De|"; }
+  93% { content: "D|"; }
+  96% { content: "|"; }
+
+  100% { content: "|"; }
 }
 #Home .scroll{
     width: 30px;
